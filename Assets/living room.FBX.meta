@@ -1,0 +1,1503 @@
+fileFormatVersion: 2
+guid: 53981243399e0eb45bac9b276cb8ecac
+timeCreated: 1461549580
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barcode
+    100002: Big Window
+    100004: Book
+    100006: Book001
+    100008: Book002
+    100010: Book003
+    100012: Book004
+    100014: Book005
+    100016: Book006
+    100018: Book007
+    100020: Book008
+    100022: Book009
+    100024: Book010
+    100026: Book011
+    100028: Book012
+    100030: Book013
+    100032: Book014
+    100034: Book015
+    100036: Bookcase
+    100038: Box001
+    100040: Box001 1
+    100042: Box001 2
+    100044: Box001 2_MeshPart0
+    100046: Box001 2_MeshPart1
+    100048: Box001 2_MeshPart2
+    100050: Box001 3
+    100052: Box002
+    100054: Box002 1
+    100056: Box002 2
+    100058: Box003
+    100060: Box004
+    100062: Box005
+    100064: Box006
+    100066: Box007
+    100068: Box007 1
+    100070: Box008
+    100072: Box009
+    100074: Box010
+    100076: Box010 1
+    100078: Box011
+    100080: Box011 1
+    100082: Box012
+    100084: Box012 1
+    100086: Box013
+    100088: Box014
+    100090: Box015
+    100092: Box016
+    100094: Box017
+    100096: Box019
+    100098: Box020
+    100100: Box021
+    100102: Box022
+    100104: Box023
+    100106: Box024
+    100108: Box025
+    100110: Box026
+    100112: Box027
+    100114: Box028
+    100116: Box029
+    100118: Box030
+    100120: Box031
+    100122: Box032
+    100124: Box033
+    100126: Box034
+    100128: Box035
+    100130: Box036
+    100132: Box037
+    100134: Box038
+    100136: Box039
+    100138: Box040
+    100140: Box041
+    100142: Box042
+    100144: Box043
+    100146: Box044
+    100148: Box045
+    100150: Box046
+    100152: Box047
+    100154: Box048
+    100156: Box049
+    100158: Box050
+    100160: Box051
+    100162: Box053
+    100164: Box054
+    100166: Box099
+    100168: Box100
+    100170: Box1000
+    100172: Box1001
+    100174: Box1002
+    100176: Box1003
+    100178: Box1004
+    100180: Box1005
+    100182: Box1006
+    100184: Box1007
+    100186: Box1008
+    100188: Box1009
+    100190: Box101
+    100192: Box1010
+    100194: Box102
+    100196: Box103
+    100198: Box104
+    100200: Box105
+    100202: Box106
+    100204: Box107
+    100206: Box108
+    100208: Box109
+    100210: Box110
+    100212: Box111
+    100214: Box112
+    100216: Box181
+    100218: Box182
+    100220: Box183
+    100222: Box184
+    100224: Box607
+    100226: Box608
+    100228: Box943
+    100230: Box944
+    100232: Box945
+    100234: Box947
+    100236: Box948
+    100238: Box949
+    100240: Box950
+    100242: Box951
+    100244: Box952
+    100246: Box953
+    100248: Box954
+    100250: Box955
+    100252: Box956
+    100254: Box957
+    100256: Box958
+    100258: Box959
+    100260: Box960
+    100262: Box961
+    100264: Box962
+    100266: Box963
+    100268: Box964
+    100270: Box965
+    100272: Box966
+    100274: Box967
+    100276: Box968
+    100278: Box969
+    100280: Box970
+    100282: Box971
+    100284: Box972
+    100286: Box973
+    100288: Box974
+    100290: Box975
+    100292: Box976
+    100294: Box977
+    100296: Box978
+    100298: Box979
+    100300: Box980
+    100302: Box981
+    100304: Box982
+    100306: Box983
+    100308: Box984
+    100310: Box985
+    100312: Box986
+    100314: Box987
+    100316: Box988
+    100318: Box989
+    100320: Box990
+    100322: Box991
+    100324: Box992
+    100326: Box993
+    100328: Box994
+    100330: Box995
+    100332: Box996
+    100334: Box997
+    100336: Box998
+    100338: Box999
+    100340: Ceiling
+    100342: Coffee Table
+    100344: Coffee Table001
+    100346: Curtain Strut
+    100348: Cylinder001
+    100350: Cylinder001 1
+    100352: Cylinder001 2
+    100354: Cylinder002
+    100356: Cylinder002 1
+    100358: Cylinder003
+    100360: Cylinder003 1
+    100362: Cylinder003 2
+    100364: Cylinder004
+    100366: Cylinder004 1
+    100368: Cylinder004 2
+    100370: Cylinder005
+    100372: Cylinder006
+    100374: Cylinder007
+    100376: Cylinder023
+    100378: Cylinder024
+    100380: Cylinder025
+    100382: Cylinder026
+    100384: Cylinder043
+    100386: Cylinder044
+    100388: Cylinder045
+    100390: Cylinder046
+    100392: Cylinder111
+    100394: Cylinder140
+    100396: Cylinder141
+    100398: Cylinder142
+    100400: Cylinder143
+    100402: Cylinder144
+    100404: Cylinder145
+    100406: Cylinder146
+    100408: Cylinder147
+    100410: Cylinder148
+    100412: Cylinder149
+    100414: Cylinder150
+    100416: Cylinder151
+    100418: Cylinder152
+    100420: Door
+    100422: Door Glass
+    100424: Door Handle
+    100426: Electrical Socket
+    100428: Electrical Socket001
+    100430: Floor Light
+    100432: Floor_Grunt
+    100434: Floor_Object001
+    100436: Floor_Object002
+    100438: Floor_Object003
+    100440: Floor_Object004
+    100442: Floor_Object005
+    100444: Floor_Object006
+    100446: Floor_Object007
+    100448: Helix Statue
+    100450: Helix Statue001
+    100452: Helix001
+    100454: Helix002
+    100456: Helix003
+    100458: Light
+    100460: Light 1
+    100462: Light001
+    100464: Light002
+    100466: Light003
+    100468: Line001
+    100470: Line002
+    100472: Line003
+    100474: Line004
+    100476: Line004_MeshPart0
+    100478: Line004_MeshPart1
+    100480: Line005
+    100482: Line005_MeshPart0
+    100484: Line005_MeshPart1
+    100486: Line006
+    100488: //RootNode
+    100490: Logo
+    100492: Magazine
+    100494: Pen Group
+    100496: Pen Holder
+    100498: Pen001
+    100500: Pen002
+    100502: Pen003
+    100504: Pen004
+    100506: Pen005
+    100508: Pen006
+    100510: Plane001
+    100512: Plane002
+    100514: Remote Controller
+    100516: Sofa
+    100518: Sphere001
+    100520: Sphere001 1
+    100522: Sphere002
+    100524: Sphere003
+    100526: Sphere004
+    100528: Sphere005
+    100530: Sphere006
+    100532: Sphere007
+    100534: Sphere008
+    100536: Sphere009
+    100538: Sphere010
+    100540: Sphere011
+    100542: Sphere012
+    100544: Sphere013
+    100546: Text001
+    100548: Text001 1
+    100550: Text002
+    100552: Text002 1
+    100554: Text003
+    100556: Text004
+    100558: Text005
+    100560: Text006
+    100562: Text007
+    100564: Text008
+    100566: Text009
+    100568: Text010
+    100570: Text011
+    100572: Text012
+    100574: Text013
+    100576: Text014
+    100578: Text015
+    100580: Text016
+    100582: Text017
+    100584: Text018
+    100586: Text019
+    100588: Text020
+    100590: Text021
+    100592: Text022
+    100594: Text023
+    100596: Text024
+    100598: Text025
+    100600: Text026
+    100602: Text027
+    100604: Text028
+    100606: Text029
+    100608: Tiles
+    100610: Torus001
+    100612: Torus001 1
+    100614: Torus002
+    100616: Torus003
+    100618: Torus004
+    100620: Tube001
+    100622: Tube001 1
+    100624: Tube001 2
+    100626: Tube002
+    100628: Tube003
+    100630: Tube004
+    100632: Tube005
+    100634: Tv
+    100636: Tv Picture
+    100638: Tv Picture001
+    100640: Tv Table
+    100642: VRayCam001
+    100644: VRayCam002
+    100646: VRayCam003
+    100648: VRayCam004
+    100650: VRayCam005
+    100652: VRayCam006
+    100654: VRayLight001
+    100656: VRayLight002
+    100658: VRayLight003
+    100660: VRayLight004
+    100662: VRayLight005
+    100664: VRayLight006
+    100666: VRayLight007
+    100668: VRayLight008
+    100670: VRayLight009
+    100672: VRayLight010
+    100674: VRayLight011
+    100676: VRayLight013
+    100678: VRayLight014
+    100680: VRaySun001
+    100682: VRaySun001.Target
+    100684: Walls
+    100686: Weird statue
+    100688: Window
+    100690: Window Glass
+    100692: Window Glass 2
+    100694: Window Glass001
+    100696: Window001
+    100698: Wooden Floor
+    100700: Xbox One
+    100702: Zavita statueta
+    400000: Barcode
+    400002: Big Window
+    400004: Book
+    400006: Book001
+    400008: Book002
+    400010: Book003
+    400012: Book004
+    400014: Book005
+    400016: Book006
+    400018: Book007
+    400020: Book008
+    400022: Book009
+    400024: Book010
+    400026: Book011
+    400028: Book012
+    400030: Book013
+    400032: Book014
+    400034: Book015
+    400036: Bookcase
+    400038: Box001
+    400040: Box001 1
+    400042: Box001 2
+    400044: Box001 2_MeshPart0
+    400046: Box001 2_MeshPart1
+    400048: Box001 2_MeshPart2
+    400050: Box001 3
+    400052: Box002
+    400054: Box002 1
+    400056: Box002 2
+    400058: Box003
+    400060: Box004
+    400062: Box005
+    400064: Box006
+    400066: Box007
+    400068: Box007 1
+    400070: Box008
+    400072: Box009
+    400074: Box010
+    400076: Box010 1
+    400078: Box011
+    400080: Box011 1
+    400082: Box012
+    400084: Box012 1
+    400086: Box013
+    400088: Box014
+    400090: Box015
+    400092: Box016
+    400094: Box017
+    400096: Box019
+    400098: Box020
+    400100: Box021
+    400102: Box022
+    400104: Box023
+    400106: Box024
+    400108: Box025
+    400110: Box026
+    400112: Box027
+    400114: Box028
+    400116: Box029
+    400118: Box030
+    400120: Box031
+    400122: Box032
+    400124: Box033
+    400126: Box034
+    400128: Box035
+    400130: Box036
+    400132: Box037
+    400134: Box038
+    400136: Box039
+    400138: Box040
+    400140: Box041
+    400142: Box042
+    400144: Box043
+    400146: Box044
+    400148: Box045
+    400150: Box046
+    400152: Box047
+    400154: Box048
+    400156: Box049
+    400158: Box050
+    400160: Box051
+    400162: Box053
+    400164: Box054
+    400166: Box099
+    400168: Box100
+    400170: Box1000
+    400172: Box1001
+    400174: Box1002
+    400176: Box1003
+    400178: Box1004
+    400180: Box1005
+    400182: Box1006
+    400184: Box1007
+    400186: Box1008
+    400188: Box1009
+    400190: Box101
+    400192: Box1010
+    400194: Box102
+    400196: Box103
+    400198: Box104
+    400200: Box105
+    400202: Box106
+    400204: Box107
+    400206: Box108
+    400208: Box109
+    400210: Box110
+    400212: Box111
+    400214: Box112
+    400216: Box181
+    400218: Box182
+    400220: Box183
+    400222: Box184
+    400224: Box607
+    400226: Box608
+    400228: Box943
+    400230: Box944
+    400232: Box945
+    400234: Box947
+    400236: Box948
+    400238: Box949
+    400240: Box950
+    400242: Box951
+    400244: Box952
+    400246: Box953
+    400248: Box954
+    400250: Box955
+    400252: Box956
+    400254: Box957
+    400256: Box958
+    400258: Box959
+    400260: Box960
+    400262: Box961
+    400264: Box962
+    400266: Box963
+    400268: Box964
+    400270: Box965
+    400272: Box966
+    400274: Box967
+    400276: Box968
+    400278: Box969
+    400280: Box970
+    400282: Box971
+    400284: Box972
+    400286: Box973
+    400288: Box974
+    400290: Box975
+    400292: Box976
+    400294: Box977
+    400296: Box978
+    400298: Box979
+    400300: Box980
+    400302: Box981
+    400304: Box982
+    400306: Box983
+    400308: Box984
+    400310: Box985
+    400312: Box986
+    400314: Box987
+    400316: Box988
+    400318: Box989
+    400320: Box990
+    400322: Box991
+    400324: Box992
+    400326: Box993
+    400328: Box994
+    400330: Box995
+    400332: Box996
+    400334: Box997
+    400336: Box998
+    400338: Box999
+    400340: Ceiling
+    400342: Coffee Table
+    400344: Coffee Table001
+    400346: Curtain Strut
+    400348: Cylinder001
+    400350: Cylinder001 1
+    400352: Cylinder001 2
+    400354: Cylinder002
+    400356: Cylinder002 1
+    400358: Cylinder003
+    400360: Cylinder003 1
+    400362: Cylinder003 2
+    400364: Cylinder004
+    400366: Cylinder004 1
+    400368: Cylinder004 2
+    400370: Cylinder005
+    400372: Cylinder006
+    400374: Cylinder007
+    400376: Cylinder023
+    400378: Cylinder024
+    400380: Cylinder025
+    400382: Cylinder026
+    400384: Cylinder043
+    400386: Cylinder044
+    400388: Cylinder045
+    400390: Cylinder046
+    400392: Cylinder111
+    400394: Cylinder140
+    400396: Cylinder141
+    400398: Cylinder142
+    400400: Cylinder143
+    400402: Cylinder144
+    400404: Cylinder145
+    400406: Cylinder146
+    400408: Cylinder147
+    400410: Cylinder148
+    400412: Cylinder149
+    400414: Cylinder150
+    400416: Cylinder151
+    400418: Cylinder152
+    400420: Door
+    400422: Door Glass
+    400424: Door Handle
+    400426: Electrical Socket
+    400428: Electrical Socket001
+    400430: Floor Light
+    400432: Floor_Grunt
+    400434: Floor_Object001
+    400436: Floor_Object002
+    400438: Floor_Object003
+    400440: Floor_Object004
+    400442: Floor_Object005
+    400444: Floor_Object006
+    400446: Floor_Object007
+    400448: Helix Statue
+    400450: Helix Statue001
+    400452: Helix001
+    400454: Helix002
+    400456: Helix003
+    400458: Light
+    400460: Light 1
+    400462: Light001
+    400464: Light002
+    400466: Light003
+    400468: Line001
+    400470: Line002
+    400472: Line003
+    400474: Line004
+    400476: Line004_MeshPart0
+    400478: Line004_MeshPart1
+    400480: Line005
+    400482: Line005_MeshPart0
+    400484: Line005_MeshPart1
+    400486: Line006
+    400488: //RootNode
+    400490: Logo
+    400492: Magazine
+    400494: Pen Group
+    400496: Pen Holder
+    400498: Pen001
+    400500: Pen002
+    400502: Pen003
+    400504: Pen004
+    400506: Pen005
+    400508: Pen006
+    400510: Plane001
+    400512: Plane002
+    400514: Remote Controller
+    400516: Sofa
+    400518: Sphere001
+    400520: Sphere001 1
+    400522: Sphere002
+    400524: Sphere003
+    400526: Sphere004
+    400528: Sphere005
+    400530: Sphere006
+    400532: Sphere007
+    400534: Sphere008
+    400536: Sphere009
+    400538: Sphere010
+    400540: Sphere011
+    400542: Sphere012
+    400544: Sphere013
+    400546: Text001
+    400548: Text001 1
+    400550: Text002
+    400552: Text002 1
+    400554: Text003
+    400556: Text004
+    400558: Text005
+    400560: Text006
+    400562: Text007
+    400564: Text008
+    400566: Text009
+    400568: Text010
+    400570: Text011
+    400572: Text012
+    400574: Text013
+    400576: Text014
+    400578: Text015
+    400580: Text016
+    400582: Text017
+    400584: Text018
+    400586: Text019
+    400588: Text020
+    400590: Text021
+    400592: Text022
+    400594: Text023
+    400596: Text024
+    400598: Text025
+    400600: Text026
+    400602: Text027
+    400604: Text028
+    400606: Text029
+    400608: Tiles
+    400610: Torus001
+    400612: Torus001 1
+    400614: Torus002
+    400616: Torus003
+    400618: Torus004
+    400620: Tube001
+    400622: Tube001 1
+    400624: Tube001 2
+    400626: Tube002
+    400628: Tube003
+    400630: Tube004
+    400632: Tube005
+    400634: Tv
+    400636: Tv Picture
+    400638: Tv Picture001
+    400640: Tv Table
+    400642: VRayCam001
+    400644: VRayCam002
+    400646: VRayCam003
+    400648: VRayCam004
+    400650: VRayCam005
+    400652: VRayCam006
+    400654: VRayLight001
+    400656: VRayLight002
+    400658: VRayLight003
+    400660: VRayLight004
+    400662: VRayLight005
+    400664: VRayLight006
+    400666: VRayLight007
+    400668: VRayLight008
+    400670: VRayLight009
+    400672: VRayLight010
+    400674: VRayLight011
+    400676: VRayLight013
+    400678: VRayLight014
+    400680: VRaySun001
+    400682: VRaySun001.Target
+    400684: Walls
+    400686: Weird statue
+    400688: Window
+    400690: Window Glass
+    400692: Window Glass 2
+    400694: Window Glass001
+    400696: Window001
+    400698: Wooden Floor
+    400700: Xbox One
+    400702: Zavita statueta
+    2300000: Barcode
+    2300002: Big Window
+    2300004: Box001
+    2300006: Box001 1
+    2300008: Box001 2_MeshPart0
+    2300010: Box001 2_MeshPart1
+    2300012: Box001 2_MeshPart2
+    2300014: Box001 3
+    2300016: Box002
+    2300018: Box002 1
+    2300020: Box002 2
+    2300022: Box003
+    2300024: Box004
+    2300026: Box005
+    2300028: Box006
+    2300030: Box007
+    2300032: Box007 1
+    2300034: Box008
+    2300036: Box009
+    2300038: Box010
+    2300040: Box010 1
+    2300042: Box011
+    2300044: Box011 1
+    2300046: Box012
+    2300048: Box012 1
+    2300050: Box013
+    2300052: Box014
+    2300054: Box015
+    2300056: Box016
+    2300058: Box017
+    2300060: Box019
+    2300062: Box020
+    2300064: Box021
+    2300066: Box022
+    2300068: Box023
+    2300070: Box024
+    2300072: Box025
+    2300074: Box026
+    2300076: Box027
+    2300078: Box028
+    2300080: Box029
+    2300082: Box030
+    2300084: Box031
+    2300086: Box032
+    2300088: Box033
+    2300090: Box034
+    2300092: Box035
+    2300094: Box036
+    2300096: Box037
+    2300098: Box038
+    2300100: Box039
+    2300102: Box040
+    2300104: Box041
+    2300106: Box042
+    2300108: Box043
+    2300110: Box044
+    2300112: Box045
+    2300114: Box046
+    2300116: Box047
+    2300118: Box048
+    2300120: Box049
+    2300122: Box050
+    2300124: Box051
+    2300126: Box053
+    2300128: Box054
+    2300130: Box099
+    2300132: Box100
+    2300134: Box1000
+    2300136: Box1001
+    2300138: Box1002
+    2300140: Box1003
+    2300142: Box1004
+    2300144: Box1005
+    2300146: Box1006
+    2300148: Box1007
+    2300150: Box1008
+    2300152: Box1009
+    2300154: Box101
+    2300156: Box1010
+    2300158: Box102
+    2300160: Box103
+    2300162: Box104
+    2300164: Box105
+    2300166: Box106
+    2300168: Box107
+    2300170: Box108
+    2300172: Box109
+    2300174: Box110
+    2300176: Box111
+    2300178: Box112
+    2300180: Box181
+    2300182: Box182
+    2300184: Box183
+    2300186: Box184
+    2300188: Box607
+    2300190: Box608
+    2300192: Box943
+    2300194: Box944
+    2300196: Box945
+    2300198: Box947
+    2300200: Box948
+    2300202: Box949
+    2300204: Box950
+    2300206: Box951
+    2300208: Box952
+    2300210: Box953
+    2300212: Box954
+    2300214: Box955
+    2300216: Box956
+    2300218: Box957
+    2300220: Box958
+    2300222: Box959
+    2300224: Box960
+    2300226: Box961
+    2300228: Box962
+    2300230: Box963
+    2300232: Box964
+    2300234: Box965
+    2300236: Box966
+    2300238: Box967
+    2300240: Box968
+    2300242: Box969
+    2300244: Box970
+    2300246: Box971
+    2300248: Box972
+    2300250: Box973
+    2300252: Box974
+    2300254: Box975
+    2300256: Box976
+    2300258: Box977
+    2300260: Box978
+    2300262: Box979
+    2300264: Box980
+    2300266: Box981
+    2300268: Box982
+    2300270: Box983
+    2300272: Box984
+    2300274: Box985
+    2300276: Box986
+    2300278: Box987
+    2300280: Box988
+    2300282: Box989
+    2300284: Box990
+    2300286: Box991
+    2300288: Box992
+    2300290: Box993
+    2300292: Box994
+    2300294: Box995
+    2300296: Box996
+    2300298: Box997
+    2300300: Box998
+    2300302: Box999
+    2300304: Ceiling
+    2300306: Curtain Strut
+    2300308: Cylinder001
+    2300310: Cylinder001 1
+    2300312: Cylinder001 2
+    2300314: Cylinder002
+    2300316: Cylinder002 1
+    2300318: Cylinder003
+    2300320: Cylinder003 1
+    2300322: Cylinder003 2
+    2300324: Cylinder004
+    2300326: Cylinder004 1
+    2300328: Cylinder004 2
+    2300330: Cylinder005
+    2300332: Cylinder006
+    2300334: Cylinder007
+    2300336: Cylinder023
+    2300338: Cylinder024
+    2300340: Cylinder025
+    2300342: Cylinder026
+    2300344: Cylinder043
+    2300346: Cylinder044
+    2300348: Cylinder045
+    2300350: Cylinder046
+    2300352: Cylinder111
+    2300354: Cylinder140
+    2300356: Cylinder141
+    2300358: Cylinder142
+    2300360: Cylinder143
+    2300362: Cylinder144
+    2300364: Cylinder145
+    2300366: Cylinder146
+    2300368: Cylinder147
+    2300370: Cylinder148
+    2300372: Cylinder149
+    2300374: Cylinder150
+    2300376: Cylinder151
+    2300378: Cylinder152
+    2300380: Door
+    2300382: Door Glass
+    2300384: Floor_Grunt
+    2300386: Floor_Object005
+    2300388: Floor_Object007
+    2300390: Line003
+    2300392: Line004_MeshPart0
+    2300394: Line004_MeshPart1
+    2300396: Line005_MeshPart0
+    2300398: Line005_MeshPart1
+    2300400: Logo
+    2300402: Pen001
+    2300404: Pen002
+    2300406: Pen003
+    2300408: Pen004
+    2300410: Pen005
+    2300412: Pen006
+    2300414: Plane001
+    2300416: Plane002
+    2300418: Sphere001
+    2300420: Sphere001 1
+    2300422: Sphere002
+    2300424: Sphere003
+    2300426: Sphere004
+    2300428: Sphere005
+    2300430: Sphere006
+    2300432: Sphere007
+    2300434: Sphere008
+    2300436: Sphere009
+    2300438: Sphere010
+    2300440: Sphere011
+    2300442: Sphere012
+    2300444: Sphere013
+    2300446: Text001 1
+    2300448: Tiles
+    2300450: Torus001
+    2300452: Torus001 1
+    2300454: Torus002
+    2300456: Torus003
+    2300458: Torus004
+    2300460: Tube001
+    2300462: Tube001 1
+    2300464: Tube001 2
+    2300466: Tube002
+    2300468: Tube003
+    2300470: Tube004
+    2300472: Tube005
+    2300474: Tv Picture
+    2300476: Tv Picture001
+    2300478: Walls
+    2300480: Window
+    2300482: Window001
+    3300000: Barcode
+    3300002: Big Window
+    3300004: Box001
+    3300006: Box001 1
+    3300008: Box001 2_MeshPart0
+    3300010: Box001 2_MeshPart1
+    3300012: Box001 2_MeshPart2
+    3300014: Box001 3
+    3300016: Box002
+    3300018: Box002 1
+    3300020: Box002 2
+    3300022: Box003
+    3300024: Box004
+    3300026: Box005
+    3300028: Box006
+    3300030: Box007
+    3300032: Box007 1
+    3300034: Box008
+    3300036: Box009
+    3300038: Box010
+    3300040: Box010 1
+    3300042: Box011
+    3300044: Box011 1
+    3300046: Box012
+    3300048: Box012 1
+    3300050: Box013
+    3300052: Box014
+    3300054: Box015
+    3300056: Box016
+    3300058: Box017
+    3300060: Box019
+    3300062: Box020
+    3300064: Box021
+    3300066: Box022
+    3300068: Box023
+    3300070: Box024
+    3300072: Box025
+    3300074: Box026
+    3300076: Box027
+    3300078: Box028
+    3300080: Box029
+    3300082: Box030
+    3300084: Box031
+    3300086: Box032
+    3300088: Box033
+    3300090: Box034
+    3300092: Box035
+    3300094: Box036
+    3300096: Box037
+    3300098: Box038
+    3300100: Box039
+    3300102: Box040
+    3300104: Box041
+    3300106: Box042
+    3300108: Box043
+    3300110: Box044
+    3300112: Box045
+    3300114: Box046
+    3300116: Box047
+    3300118: Box048
+    3300120: Box049
+    3300122: Box050
+    3300124: Box051
+    3300126: Box053
+    3300128: Box054
+    3300130: Box099
+    3300132: Box100
+    3300134: Box1000
+    3300136: Box1001
+    3300138: Box1002
+    3300140: Box1003
+    3300142: Box1004
+    3300144: Box1005
+    3300146: Box1006
+    3300148: Box1007
+    3300150: Box1008
+    3300152: Box1009
+    3300154: Box101
+    3300156: Box1010
+    3300158: Box102
+    3300160: Box103
+    3300162: Box104
+    3300164: Box105
+    3300166: Box106
+    3300168: Box107
+    3300170: Box108
+    3300172: Box109
+    3300174: Box110
+    3300176: Box111
+    3300178: Box112
+    3300180: Box181
+    3300182: Box182
+    3300184: Box183
+    3300186: Box184
+    3300188: Box607
+    3300190: Box608
+    3300192: Box943
+    3300194: Box944
+    3300196: Box945
+    3300198: Box947
+    3300200: Box948
+    3300202: Box949
+    3300204: Box950
+    3300206: Box951
+    3300208: Box952
+    3300210: Box953
+    3300212: Box954
+    3300214: Box955
+    3300216: Box956
+    3300218: Box957
+    3300220: Box958
+    3300222: Box959
+    3300224: Box960
+    3300226: Box961
+    3300228: Box962
+    3300230: Box963
+    3300232: Box964
+    3300234: Box965
+    3300236: Box966
+    3300238: Box967
+    3300240: Box968
+    3300242: Box969
+    3300244: Box970
+    3300246: Box971
+    3300248: Box972
+    3300250: Box973
+    3300252: Box974
+    3300254: Box975
+    3300256: Box976
+    3300258: Box977
+    3300260: Box978
+    3300262: Box979
+    3300264: Box980
+    3300266: Box981
+    3300268: Box982
+    3300270: Box983
+    3300272: Box984
+    3300274: Box985
+    3300276: Box986
+    3300278: Box987
+    3300280: Box988
+    3300282: Box989
+    3300284: Box990
+    3300286: Box991
+    3300288: Box992
+    3300290: Box993
+    3300292: Box994
+    3300294: Box995
+    3300296: Box996
+    3300298: Box997
+    3300300: Box998
+    3300302: Box999
+    3300304: Ceiling
+    3300306: Curtain Strut
+    3300308: Cylinder001
+    3300310: Cylinder001 1
+    3300312: Cylinder001 2
+    3300314: Cylinder002
+    3300316: Cylinder002 1
+    3300318: Cylinder003
+    3300320: Cylinder003 1
+    3300322: Cylinder003 2
+    3300324: Cylinder004
+    3300326: Cylinder004 1
+    3300328: Cylinder004 2
+    3300330: Cylinder005
+    3300332: Cylinder006
+    3300334: Cylinder007
+    3300336: Cylinder023
+    3300338: Cylinder024
+    3300340: Cylinder025
+    3300342: Cylinder026
+    3300344: Cylinder043
+    3300346: Cylinder044
+    3300348: Cylinder045
+    3300350: Cylinder046
+    3300352: Cylinder111
+    3300354: Cylinder140
+    3300356: Cylinder141
+    3300358: Cylinder142
+    3300360: Cylinder143
+    3300362: Cylinder144
+    3300364: Cylinder145
+    3300366: Cylinder146
+    3300368: Cylinder147
+    3300370: Cylinder148
+    3300372: Cylinder149
+    3300374: Cylinder150
+    3300376: Cylinder151
+    3300378: Cylinder152
+    3300380: Door
+    3300382: Door Glass
+    3300384: Floor_Grunt
+    3300386: Floor_Object005
+    3300388: Floor_Object007
+    3300390: Line003
+    3300392: Line004_MeshPart0
+    3300394: Line004_MeshPart1
+    3300396: Line005_MeshPart0
+    3300398: Line005_MeshPart1
+    3300400: Logo
+    3300402: Pen001
+    3300404: Pen002
+    3300406: Pen003
+    3300408: Pen004
+    3300410: Pen005
+    3300412: Pen006
+    3300414: Plane001
+    3300416: Plane002
+    3300418: Sphere001
+    3300420: Sphere001 1
+    3300422: Sphere002
+    3300424: Sphere003
+    3300426: Sphere004
+    3300428: Sphere005
+    3300430: Sphere006
+    3300432: Sphere007
+    3300434: Sphere008
+    3300436: Sphere009
+    3300438: Sphere010
+    3300440: Sphere011
+    3300442: Sphere012
+    3300444: Sphere013
+    3300446: Text001 1
+    3300448: Tiles
+    3300450: Torus001
+    3300452: Torus001 1
+    3300454: Torus002
+    3300456: Torus003
+    3300458: Torus004
+    3300460: Tube001
+    3300462: Tube001 1
+    3300464: Tube001 2
+    3300466: Tube002
+    3300468: Tube003
+    3300470: Tube004
+    3300472: Tube005
+    3300474: Tv Picture
+    3300476: Tv Picture001
+    3300478: Walls
+    3300480: Window
+    3300482: Window001
+    4300000: Walls
+    4300002: Window
+    4300004: Box010
+    4300006: Box011
+    4300008: Box006
+    4300010: Box007
+    4300012: Box009
+    4300014: Box008
+    4300016: Window001
+    4300018: Box017
+    4300020: Box016
+    4300022: Box012
+    4300024: Box014
+    4300026: Box013
+    4300028: Box015
+    4300030: Box019
+    4300032: Big Window
+    4300034: Box020
+    4300036: Door
+    4300038: Door Glass
+    4300040: Tiles
+    4300042: Sphere007
+    4300044: Box030
+    4300046: Box027
+    4300048: Box021
+    4300050: Box028
+    4300052: Sphere002
+    4300054: Sphere003
+    4300056: Sphere005
+    4300058: Sphere004
+    4300060: Box024
+    4300062: Box026
+    4300064: Sphere006
+    4300066: Box025
+    4300068: Box023
+    4300070: Box029
+    4300072: Box022
+    4300074: Box031
+    4300076: Box041
+    4300078: Box045
+    4300080: Box039
+    4300082: Box037
+    4300084: Box046
+    4300086: Box040
+    4300088: Box038
+    4300090: Box044
+    4300092: Box033
+    4300094: Box043
+    4300096: Box047
+    4300098: Box035
+    4300100: Box042
+    4300102: Sphere001
+    4300104: Box034
+    4300106: Box036
+    4300108: Box032
+    4300110: Floor_Grunt
+    4300112: Floor_Object005
+    4300114: Floor_Object007
+    4300116: Box048
+    4300118: Box050
+    4300120: Cylinder004
+    4300122: Box049
+    4300124: Tube001
+    4300126: Cylinder003
+    4300128: Line003
+    4300130: Box051
+    4300132: Curtain Strut
+    4300134: Line004_MeshPart0
+    4300136: Line004_MeshPart1
+    4300138: Line005_MeshPart0
+    4300140: Line005_MeshPart1
+    4300142: Box053
+    4300144: Box054
+    4300146: Box004
+    4300148: Box007
+    4300150: Box005
+    4300152: Plane001
+    4300154: Box002
+    4300156: Box003
+    4300158: Box011
+    4300160: Box010
+    4300162: Box012
+    4300164: Cylinder001
+    4300166: Cylinder002
+    4300168: Cylinder004
+    4300170: Cylinder003
+    4300172: Cylinder043
+    4300174: Cylinder044
+    4300176: Cylinder045
+    4300178: Cylinder046
+    4300180: Box001_MeshPart0
+    4300182: Box001_MeshPart1
+    4300184: Box001_MeshPart2
+    4300186: Tv Picture
+    4300188: Tv Picture001
+    4300190: Cylinder001
+    4300192: Cylinder002
+    4300194: Cylinder003
+    4300196: Cylinder004
+    4300198: Cylinder005
+    4300200: Cylinder006
+    4300202: Cylinder007
+    4300204: Tube001
+    4300206: Tube002
+    4300208: Tube003
+    4300210: Tube004
+    4300212: Tube005
+    4300214: Barcode
+    4300216: Logo
+    4300218: Box943
+    4300220: Box944
+    4300222: Box945
+    4300224: Cylinder026
+    4300226: Cylinder025
+    4300228: Cylinder024
+    4300230: Cylinder023
+    4300232: Text001
+    4300234: Box001
+    4300236: Box183
+    4300238: Box184
+    4300240: Box182
+    4300242: Box181
+    4300244: Tube001
+    4300246: Box002
+    4300248: Box001
+    4300250: Box099
+    4300252: Box100
+    4300254: Box101
+    4300256: Box102
+    4300258: Box103
+    4300260: Box104
+    4300262: Box105
+    4300264: Box106
+    4300266: Box107
+    4300268: Box108
+    4300270: Box109
+    4300272: Box110
+    4300274: Box111
+    4300276: Box112
+    4300278: Ceiling
+    4300280: Box947
+    4300282: Box001
+    4300284: Box002
+    4300286: Box948
+    4300288: Box949
+    4300290: Box950
+    4300292: Box951
+    4300294: Box952
+    4300296: Box953
+    4300298: Box954
+    4300300: Box955
+    4300302: Box956
+    4300304: Box957
+    4300306: Box958
+    4300308: Box959
+    4300310: Box960
+    4300312: Box961
+    4300314: Box1002
+    4300316: Box1003
+    4300318: Box962
+    4300320: Box963
+    4300322: Cylinder001
+    4300324: Box964
+    4300326: Box965
+    4300328: Sphere001
+    4300330: Torus001
+    4300332: Torus002
+    4300334: Torus003
+    4300336: Torus004
+    4300338: Torus001
+    4300340: Box966
+    4300342: Box967
+    4300344: Box968
+    4300346: Box969
+    4300348: Box970
+    4300350: Box971
+    4300352: Box984
+    4300354: Box985
+    4300356: Box986
+    4300358: Box987
+    4300360: Box988
+    4300362: Box989
+    4300364: Box990
+    4300366: Box991
+    4300368: Box1000
+    4300370: Box1001
+    4300372: Box1004
+    4300374: Box1005
+    4300376: Box1006
+    4300378: Box1007
+    4300380: Box1008
+    4300382: Box1009
+    4300384: Box972
+    4300386: Box973
+    4300388: Cylinder111
+    4300390: Plane002
+    4300392: Pen003
+    4300394: Pen002
+    4300396: Pen001
+    4300398: Pen006
+    4300400: Pen005
+    4300402: Pen004
+    4300404: Cylinder140
+    4300406: Cylinder141
+    4300408: Box607
+    4300410: Box608
+    4300412: Cylinder142
+    4300414: Cylinder143
+    4300416: Box974
+    4300418: Box975
+    4300420: Cylinder144
+    4300422: Cylinder145
+    4300424: Sphere009
+    4300426: Sphere011
+    4300428: Sphere013
+    4300430: Cylinder146
+    4300432: Box976
+    4300434: Sphere008
+    4300436: Sphere010
+    4300438: Box977
+    4300440: Box978
+    4300442: Cylinder147
+    4300444: Sphere012
+    4300446: Cylinder148
+    4300448: Cylinder149
+    4300450: Cylinder150
+    4300452: Box979
+    4300454: Box980
+    4300456: Cylinder151
+    4300458: Cylinder152
+    4300460: Box981
+    4300462: Box982
+    4300464: Box983
+    4300466: Box992
+    4300468: Box993
+    4300470: Box994
+    4300472: Box995
+    4300474: Box996
+    4300476: Box997
+    4300478: Box998
+    4300480: Box999
+    4300482: Box1010
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
