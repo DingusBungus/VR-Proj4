@@ -4,7 +4,7 @@ using System.Collections;
 public class Arms : MonoBehaviour {
 
 	private Animator animator;
-	private bool tookPills = false;
+	public bool tookPills = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +15,7 @@ public class Arms : MonoBehaviour {
 	void Update () {
 		if (animator) {
 			AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo (0);
-			if (Input.GetButton("Fire1")) animator.SetBool("take", true);
+			if (Input.GetKeyDown("y")) animator.SetBool("take", true);
 			if (state.IsName("Base Layer.PunchRight") && !animator.IsInTransition(0))
 			{
 				animator.SetBool("take", false);
@@ -23,4 +23,6 @@ public class Arms : MonoBehaviour {
 			}
 		}
 	}
+
+
 }

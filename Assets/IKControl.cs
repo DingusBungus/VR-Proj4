@@ -9,7 +9,6 @@ public class IKControl : MonoBehaviour {
 	private Animator animator;
 
 	public bool ikActive = false;
-	public Transform leftHandObj = null;
 	public Transform lookObj = null;
 
 	void Start () 
@@ -29,17 +28,7 @@ public class IKControl : MonoBehaviour {
 					animator.SetLookAtWeight(1);
 					animator.SetLookAtPosition(lookObj.position);
 				}    
-
-				// Set the right hand target position and rotation, if one has been assigned
-				if(leftHandObj != null) {
-					animator.SetIKPositionWeight(AvatarIKGoal.LeftHand,1);
-					animator.SetIKRotationWeight(AvatarIKGoal.LeftHand,1);  
-					animator.SetIKPosition(AvatarIKGoal.LeftHand,leftHandObj.position);
-					animator.SetIKRotation(AvatarIKGoal.LeftHand,leftHandObj.rotation);
-					animator.SetTrigger ("Drink");
-
-				}        
-
+					
 			}
 
 			//if the IK is not active, set the position and rotation of the hand and head back to the original position
