@@ -438,6 +438,10 @@ body {
 
 p {
   margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: block;
+  text-align: left;
 }
 
 a {
@@ -445,6 +449,16 @@ a {
 }
 a:hover {
   color: #2268b2;
+}
+
+h3 {
+  text-align: center;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 header {
@@ -457,6 +471,9 @@ header {
 
 header h1 {
   width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -489,7 +506,7 @@ header h2 {
 }
 
 #main-content {
-  float: left;
+  float: center;
   width: 690px;
 }
 
