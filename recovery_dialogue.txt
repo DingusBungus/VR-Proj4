@@ -1,8 +1,0 @@
-Doctor: I am glad to see you doing well!
-Doctor: It seems you have made quite a recovery.
-Me: Yeah, I was in a lot of pain, but the medication helped a lot.
-Doctor: Ah yes. I was meaning to ask you about your pain...
-Doctor: Do you still have any?
-Me: Yes, I do.
-Doctor: Should I prescribe you more medication?
-Click X for YES and O for NO
