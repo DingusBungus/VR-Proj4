@@ -13,6 +13,7 @@ sysinfo.txt
 *.stackdump
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+VR/
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #

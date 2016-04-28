@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IntroDialog : MonoBehaviour {
 
@@ -28,15 +29,45 @@ public class IntroDialog : MonoBehaviour {
 	{
 		text.text = textLines[line];
 
-		if (Input.GetKeyDown(KeyCode.JoystickButton2) || Input.GetKeyDown(KeyCode.P)) {
-			line++;
-		}
-
-		if (line > endAtLine) {
+		if (line >= endAtLine) {
 			//Finish and move on to scene.
-			DisableTextBox();
 			//sceneFadeInOut.EndScene()
-			Application.LoadLevel("HospitalRecovery");
+			if (SceneManager.GetActiveScene ().name == "Hospital") {
+				DisableTextBox ();
+				SceneManager.LoadScene ("HospitalRecovery", LoadSceneMode.Single);
+			} else if (SceneManager.GetActiveScene ().name == "HospitalRecovery") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
+					DisableTextBox ();
+					SceneManager.LoadScene ("Livingroom", LoadSceneMode.Single);
+
+				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
+					DisableTextBox ();
+					SceneManager.LoadScene ("Bedroom", LoadSceneMode.Single);
+				}
+			} else if (SceneManager.GetActiveScene ().name == "Livingroom") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
+					DisableTextBox ();
+					//TODO: Set bool to where no pill bottle is present
+					SceneManager.LoadScene ("Bedroom", LoadSceneMode.Single);
+
+				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
+					DisableTextBox ();
+					SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
+				}
+			} else if (SceneManager.GetActiveScene ().name == "Bedroom") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
+					DisableTextBox ();
+					SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
+
+				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
+					DisableTextBox ();
+					SceneManager.LoadScene ("Overdose", LoadSceneMode.Single);
+				}
+			}
+		} else {
+			if (Input.GetKeyDown(KeyCode.JoystickButton2) || Input.GetKeyDown(KeyCode.P)) {
+				line++;
+			}
 		}
 	}
 
