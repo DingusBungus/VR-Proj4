@@ -12,9 +12,14 @@ public class IntroDialog : MonoBehaviour {
 	SceneFadeInOut sceneFadeInOut;
 	public string[] textLines;
 
+	public bool overdose = false;
+
 	// Use this for initialization
 	void Start()
 	{
+		if (SceneManager.GetActiveScene ().name == "Rehab" && overdose) {
+			textFile = Resources.Load("rehab_dialogue.txt") as TextAsset;
+		}
 		if (textFile != null) {
 			textLines = textFile.text.Split ('\n');
 		}
@@ -47,21 +52,33 @@ public class IntroDialog : MonoBehaviour {
 			} else if (SceneManager.GetActiveScene ().name == "Livingroom") {
 				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
 					DisableTextBox ();
-					//TODO: Set bool to where no pill bottle is present
-					SceneManager.LoadScene ("Bedroom", LoadSceneMode.Single);
+					SceneManager.LoadScene ("BedroomEnd", LoadSceneMode.Single);
 
 				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
 					DisableTextBox ();
-					SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
+					SceneManager.LoadScene ("Bedroom", LoadSceneMode.Single);
 				}
 			} else if (SceneManager.GetActiveScene ().name == "Bedroom") {
 				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
 					DisableTextBox ();
+					overdose = false;
 					SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
 
 				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
 					DisableTextBox ();
+					overdose = true;
 					SceneManager.LoadScene ("Overdose", LoadSceneMode.Single);
+				}
+			} else if (SceneManager.GetActiveScene ().name == "BedroomEnd") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) {
+					SceneManager.LoadScene ("Hospital", LoadSceneMode.Single);
+					overdose = false;
+				}
+			}
+			else if (SceneManager.GetActiveScene ().name == "Rehab") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) {
+					SceneManager.LoadScene ("Hospital", LoadSceneMode.Single);
+					overdose = false;
 				}
 			}
 		} else {
