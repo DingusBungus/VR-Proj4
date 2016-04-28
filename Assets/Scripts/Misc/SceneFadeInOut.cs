@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SceneFadeInOut : MonoBehaviour {
 	
@@ -50,7 +51,7 @@ public class SceneFadeInOut : MonoBehaviour {
 		
 		// If the screen is almost black reload the level.
 		if (GetComponent<GUITexture>().color.a >= 0.95f) {
-			//Application.LoadLevel(0); Settings to new Scene
+			SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
 		}
 	}
 }

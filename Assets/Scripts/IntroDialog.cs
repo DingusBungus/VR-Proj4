@@ -12,14 +12,13 @@ public class IntroDialog : MonoBehaviour {
 	SceneFadeInOut sceneFadeInOut;
 	public string[] textLines;
 
-	public bool overdose = false;
+	public float timeFaded = 8.0f;
 
 	// Use this for initialization
 	void Start()
 	{
-		if (SceneManager.GetActiveScene ().name == "Rehab" && overdose) {
-			textFile = Resources.Load("rehab_dialogue.txt") as TextAsset;
-		}
+		sceneFadeInOut = new SceneFadeInOut ();
+
 		if (textFile != null) {
 			textLines = textFile.text.Split ('\n');
 		}
@@ -61,24 +60,26 @@ public class IntroDialog : MonoBehaviour {
 			} else if (SceneManager.GetActiveScene ().name == "Bedroom") {
 				if (Input.GetKeyDown (KeyCode.JoystickButton1) || Input.GetKeyDown ("o")) { //Circle
 					DisableTextBox ();
-					overdose = false;
 					SceneManager.LoadScene ("Rehab", LoadSceneMode.Single);
 
 				} else if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) { //X
 					DisableTextBox ();
-					overdose = true;
-					SceneManager.LoadScene ("Overdose", LoadSceneMode.Single);
+					SceneManager.LoadScene ("Rehab_OD", LoadSceneMode.Single);
+					//Fader
+					//fade();
+					//sceneFadeInOut.EndScene;
 				}
 			} else if (SceneManager.GetActiveScene ().name == "BedroomEnd") {
 				if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) {
 					SceneManager.LoadScene ("Hospital", LoadSceneMode.Single);
-					overdose = false;
 				}
-			}
-			else if (SceneManager.GetActiveScene ().name == "Rehab") {
+			} else if (SceneManager.GetActiveScene ().name == "Rehab") {
 				if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) {
 					SceneManager.LoadScene ("Hospital", LoadSceneMode.Single);
-					overdose = false;
+				}
+			} else if (SceneManager.GetActiveScene ().name == "Rehab_OD") {
+				if (Input.GetKeyDown (KeyCode.JoystickButton2) || Input.GetKeyDown ("x")) {
+					SceneManager.LoadScene ("Hospital", LoadSceneMode.Single);
 				}
 			}
 		} else {
@@ -96,5 +97,13 @@ public class IntroDialog : MonoBehaviour {
 	public void DisableTextBox()
 	{
 		textBox.SetActive(false);
+	}
+
+	public void fade() {
+		while ((timeFaded -= Time.deltaTime) > 0) {
+			Debug.Log (timeFaded);
+			sceneFadeInOut.EndScene();
+		}
+		//timeFaded = 8.0f;
 	}
 }
