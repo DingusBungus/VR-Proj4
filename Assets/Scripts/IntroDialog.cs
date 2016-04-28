@@ -8,6 +8,7 @@ public class IntroDialog : MonoBehaviour {
 	public int line = 0;
 	public int endAtLine = 0; //the last line of text.  If the button is pressed here, move to another scene.
 	public TextAsset textFile;
+	SceneFadeInOut sceneFadeInOut;
 	public string[] textLines;
 
 	// Use this for initialization
@@ -19,6 +20,7 @@ public class IntroDialog : MonoBehaviour {
 		if (endAtLine == 0) {
 			endAtLine = textLines.Length - 1;
 		}
+		//sceneFadeInOut = script
 	}
 
 	// Update is called once per frame
@@ -33,6 +35,7 @@ public class IntroDialog : MonoBehaviour {
 		if (line > endAtLine) {
 			//Finish and move on to scene.
 			DisableTextBox();
+			//sceneFadeInOut.EndScene()
 			//Application.LoadLevel("Hospital");
 		}
 	}
