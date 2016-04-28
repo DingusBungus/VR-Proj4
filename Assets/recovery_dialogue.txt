@@ -1,4 +1,5 @@
-Doctor: I am glad to see you doing well!
+Doctor: I am glad to see you are doing well!
+Doctor: Time has done wonders for your injuries...
 Doctor: It seems you have made quite a recovery.
 Me: Yeah, I was in a lot of pain, but the medication helped a lot.
 Doctor: Ah yes. I was meaning to ask you about your pain...

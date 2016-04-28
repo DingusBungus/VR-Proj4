@@ -36,7 +36,7 @@ public class IntroDialog : MonoBehaviour {
 			//Finish and move on to scene.
 			DisableTextBox();
 			//sceneFadeInOut.EndScene()
-			//Application.LoadLevel("Hospital");
+			Application.LoadLevel("HospitalRecovery");
 		}
 	}
 
