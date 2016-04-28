@@ -4,6 +4,7 @@ using UnityStandardAssets.ImageEffects;
 
 public class Drunk : MonoBehaviour {
 	private MotionBlur mBlur;
+	public GameObject pills;
 	float timerDrunk = 4.0f; 
 	public Arms arm;
 
@@ -21,6 +22,7 @@ public class Drunk : MonoBehaviour {
 		}
 		if (arm.tookPills){
 			timerDrunk -= Time.deltaTime;
+			pills.SetActive (false);
 			//mBlur.blurAmount -= 0.2f;
 		}
 		if (timerDrunk <= 0) {
